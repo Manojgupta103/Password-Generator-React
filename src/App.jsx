@@ -63,13 +63,11 @@ function App() {
         <div className="lowerCase">
           <label>Include Lower Case</label>
           <input type="checkbox" className="chkbox" checked={lowercase} onChange={()=>setLowercase(!lowercase)}/>
-
         </div>
 
         <div className="Number">
           <label>Include Number</label>
           <input type="checkbox" className="chkbox" checked={number} onChange={()=>setNumber(!number)}/>
-
         </div>
 
         <div className="symbol">
@@ -83,5 +81,4 @@ function App() {
     </>
   );
 }
-
 export default App;

@@ -111,3 +111,46 @@ padding: 10px 0px;
     background-color: black;
     border-radius: 10px;
   }
+
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: aqua;
+      display: block;
+    }
+    .passwordBox {
+      width: 80%;
+      margin: 20px auto;
+    }
+    .passwordBox h2 {
+      font-size: 24px;
+    }
+    .passwordBoxin {
+      flex-direction: column;
+    }
+    .passwordBoxin input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .passwordBoxin Button {
+      width: 100%;
+      margin-top: 10px;
+    }
+    .passlength label {
+      flex-basis: 100%;
+    }
+    .passlength input {
+      width: 100%;
+    }
+    .upperCase,
+    .lowerCase,
+    .Number,
+    .symbol {
+      flex-direction: column;
+    }
+    .chkbox {
+      margin-bottom: 5px;
+    }
+    .btn {
+      width: 100%;
+    }
+  }
