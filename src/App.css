@@ -1,0 +1,113 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: aqua;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.passwordBox{
+  width: 300px;
+  padding: 20px;
+  background-color: blueviolet;
+  border-radius: 15px;
+
+}
+
+.passwordBox h2{
+  text-align: center;
+  color: black;
+}
+
+.passwordBoxin{
+  display: flex;
+}
+
+.passwordBoxin input{
+  flex-basis: 80%;
+  padding-left: 5px;
+  border-radius: 10px;
+}
+.passwordBoxin Button{
+  flex-basis: 20%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: black;
+}
+
+.passwordBoxin Button:hover{
+  background-color: black;
+  color: white;
+}
+
+.passlength{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 0px;
+}
+
+.passlength label{
+  flex-basis: 80%;
+  padding: 10px 0px;
+}
+
+  .passlength input{
+    flex-basis: 80%;
+    padding-left: 5px;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+  }
+
+
+.upperCase{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+  
+  }
+
+.lowerCase{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+  }
+
+.Number{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+  }
+  
+.symbol{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+  }
+
+  .chkbox{
+    width: 20px;
+    height: 20px;
+  }
+
+  .btn{
+    width: 100%;
+    padding: 10px 0px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 10px;
+  }
